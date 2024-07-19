@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Baskervville SC", serif;
+}
+
+section{
+  height: 100vh;
+  background-image: url(image.jpg);
+  background-image: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  margin: auto;
+  height: 85%;
+}
+
+nav{
+  height: 80px;
+}
+
+nav h1{
+  float: left;
+  color: rgba(232, 141, 14, 0.927);
+  font-size: 35px;
+  line-height: 80px;
+  font-size: inline;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+nav ul{
+  line-height: 80px;
+  float: right
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 5px;
+  margin-right: 8px;
+  
+
+}
+
+nav ul li a{
+  color: rgb(249, 29, 29);
+  padding: 7px 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 90px;
+}
+
+nav ul li a:hover{
+  transition: 0.8s ease;
+  background-color: blue;
+  padding: 7px 8px;
+}
+
+.box{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  transform: translateY(24vh);
+}
+
+.box h1{
+  font-size: 36px;
+  color: rgb(11, 79, 236);
+  letter-spacing: 1.3px;
+  font-weight: 700px;
+  margin-bottom: 24px;
+  margin-top: -40px;
+}
+
+.box p{
+  font-size: 25px;
+  letter-spacing: 1.3px;
+  font-weight: 700px;
+  margin-bottom: 50px;
+}
+
+.button{
+  text-decoration: none;
+  letter-spacing: 1.3px;
+  color: rgb(121, 6, 6);
+  font-weight: 700px;
+  font-size: 20px;
+  border-radius: 90px;
+}
+
+.button:hover{
+  transition: 0.5s ease;
+  padding: 7px 8px;
+  background-color: rgb(44, 7, 118);
+}
